@@ -1,0 +1,401 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto" ;
+}
+
+body{
+    background-color: black;
+}
+
+
+header {
+  background: transparent;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  
+}
+
+header .header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.img-logo {
+    width: 13%;
+ /* width: 200px;
+  height: 98px;*/
+}
+
+.sign-btn {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 8px 18px;
+  font-size: 14px;
+}
+
+.intro-section {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.829),
+      rgba(13, 13, 13, 0.582),
+      rgba(0, 0, 0, 0.706)
+    ),
+    url('../Images/NG-en-20221114-popsignuptwoweeks-perspective_alpha_website_medium\ \(1\).jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro-section .content {
+  width: 50%;
+  color: #fff;
+}
+
+.intro-text h1 {
+  font-size: 3rem;
+  /*letter-spacing: 2px;
+  width: 80%;
+ margin-left: 80px;
+  margin-top: 70px;*/
+}
+
+/*.intro-text p{
+    font-size: 26px;
+    font-weight: 400;
+    /*padding: 1rem 0;*/
+
+
+
+.form-control{
+    margin-top: 1rem;
+}
+
+.input-control{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.input-control input{
+    width: 80%;
+    padding: 0.6rem 1rem;
+    border: none
+    outline: none;
+    color: #333;
+    
+}
+
+.input-control button{
+    color: #fff;
+    background-color: red;
+    white-space: nowrap;
+    padding: 0.6rem 2rem;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.intro-button p{
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 768px) 
+    .input-control {
+        flex-direction: column;
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
+/*TV SECTION STYLING BEGINNING*/
+.tv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 64px;
+    border-top: 9px solid rgb(44, 44, 44);
+    border-bottom: 9px solid rgb(44, 44, 44);
+}
+
+.tv .tv-text{
+    width: 50%;
+    color: #fff;
+}
+
+.tv .tv-text h1{
+    font-size: 48px;
+}
+
+.tv .tv-text p{
+    font-size: 22px;
+}
+/*TV SECTION STYLING END*/
+
+/*PHONE SECTION STYLING BEGINNING*/
+.phone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 64px;
+    border-bottom: 9px solid rgb(44, 44, 44);
+    padding-bottom: 50px;
+}
+
+.phone .phone-text{
+    width: 50%;
+    color: #fff;
+}
+
+.phone-text h1{
+    font-size: 48px;
+}
+
+.phone-text p{
+    font-size: 22px;
+}
+/*PHONE SECTION STYLING END*/
+
+/*Empty section beginning*/
+.empty{
+    text-align: left;
+    padding: 32px 64px;
+    border-bottom: 9px solid rgb(44, 44, 44);
+    padding-bottom: 50px;
+}
+
+.empty-text{
+    color: #fff;
+    width: 50%;
+}
+
+.empty-text h1{
+    font-size: 48px;
+}
+
+.empty-text p{
+    font-size: 22px;
+}
+/*Empty section styling end*/
+
+/*KIDS SECTION STYLING BEGINNING*/
+.kids{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 64px;
+    border-bottom: 9px solid rgb(44, 44, 44);
+    padding-bottom: 50px;
+}
+
+.kids-text{
+    color: #fff;
+    width: 50%;
+}
+
+.kids-text h1{
+    font-size: 48px;
+}
+
+.kids-text p{
+    font-size: 22px;
+}
+/*KIDS SECTION STYLING END*/
+
+/*FAQ SECTION BEGINNING*/
+.faq{
+    text-align: center;
+}
+.faq h1{
+    color: #fff;
+    font-size: 40px;
+    margin: 30px 10px;
+}
+
+.faq-div{
+    color: #fff;
+}
+
+.qtn-1{
+    font-size: 20px;
+    border-style: solid;
+    background-color: rgb(44, 44, 44);
+    border-color: rgb(44, 44, 44);
+    width: 700px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-left: 270px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.qtn-2{
+    font-size: 20px;
+    border-style: solid;
+    background-color: rgb(44, 44, 44);
+    border-color: rgb(44, 44, 44);
+    width: 700px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-left: 270px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.qtn-3{
+    font-size: 20px;
+    border-style: solid;
+    background-color: rgb(44, 44, 44);
+    border-color: rgb(44, 44, 44);
+    width: 700px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-left: 270px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.qtn-4{
+    font-size: 20px;
+    border-style: solid;
+    background-color: rgb(44, 44, 44);
+    border-color: rgb(44, 44, 44);
+    width: 700px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-left: 270px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.qtn-5{
+    font-size: 20px;
+    border-style: solid;
+    background-color: rgb(44, 44, 44);
+    border-color: rgb(44, 44, 44);
+    width: 700px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-left: 270px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.qtn-6{
+    font-size: 20px;
+    border-style: solid;
+    background-color: rgb(44, 44, 44);
+    border-color: rgb(44, 44, 44);
+    width: 700px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-left: 270px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.qtn-end{
+    color: #fff;
+    margin-top: 50px;
+}
+
+.input-control2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1rem;
+    padding-bottom: 50px;
+    border-bottom: 9px solid rgb(44, 44, 44);
+}
+
+.input-control2 input{
+    width: 50%;
+    padding: 0.6rem 1rem;
+    border: none
+    outline: none;
+    color: #333; 
+}
+
+.input-control2 .intro-button2{
+    color: #fff;
+    background-color: red;
+    white-space: nowrap;
+    padding: 0.6rem 2rem;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.intro-button2 p{
+    margin-right: 1rem;
+}
+/*FOOTER STYLING BEGINNING*/
+.bottom{
+    color: rgb(102, 100, 100);
+}
+
+.columns{
+    display: flex;
+}
+
+.footer{
+    margin-top: 50px;
+    margin-left: 170px;
+    margin-bottom: 30px;
+}
+    
+.footer2{
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.columns li{
+    list-style: none;
+    margin-bottom: 8px;
+    }
+.columns a{
+    color: rgb(102, 100, 100);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.row1{
+    width: 20%;
+    margin-left: 170px;
+}
+
+.row2{
+    width: 20%;
+}
+
+.row3{
+    width: 20%;
+}
+
+.row4{
+    width: 20%;
+}
